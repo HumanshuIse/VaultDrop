@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="folder-bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="file-bg" x1="80" y1="40" x2="120" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <!-- Folder base -->
+  <rect x="20" y="48" width="88" height="48" rx="10" fill="url(#folder-bg)" stroke="#1e293b" stroke-width="4"/>
+  <!-- Folder tab -->
+  <rect x="28" y="36" width="32" height="20" rx="6" fill="#38bdf8" stroke="#2563eb" stroke-width="2"/>
+  <!-- File (paper) inside folder -->
+  <rect x="72" y="52" width="32" height="40" rx="4" fill="url(#file-bg)" stroke="#64748b" stroke-width="2"/>
+  <polyline points="96,52 104,52 104,92 72,92 72,52 80,52" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <!-- File lines -->
+  <rect x="80" y="60" width="16" height="3" rx="1.5" fill="#94a3b8"/>
+  <rect x="80" y="68" width="12" height="3" rx="1.5" fill="#94a3b8"/>
+  <rect x="80" y="76" width="10" height="3" rx="1.5" fill="#94a3b8"/>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="vaultdrop-bg" cx="64" cy="64" r="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </radialGradient>
+    <linearGradient id="vaultdrop-arrow" x1="64" y1="70" x2="64" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <!-- Modern shield with subtle 3D effect -->
+  <path d="M64 18C90 28 110 36 110 58c0 38-30 54-46 54S18 96 18 58c0-22 20-30 46-40z" fill="url(#vaultdrop-bg)" stroke="#1e293b" stroke-width="4"/>
+  <!-- Vault door: inner circle with metallic effect -->
+  <circle cx="64" cy="66" r="22" fill="#f1f5f9" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="64" cy="66" r="10" fill="#fff" stroke="#38bdf8" stroke-width="2"/>
+  <!-- Downward arrow (drop) with shadow -->
+  <path d="M64 60v18M58 72l6 6 6-6" stroke="url(#vaultdrop-arrow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+  <!-- Optional: subtle highlight -->
+  <ellipse cx="64" cy="38" rx="18" ry="6" fill="#fff" fill-opacity="0.18"/>
+</svg>

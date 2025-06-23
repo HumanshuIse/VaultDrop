@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vaultdrop-shield" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="vaultdrop-arrow" x1="64" y1="60" x2="64" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield/Vault -->
+  <path d="M64 16C88 24 112 32 112 56c0 40-32 56-48 56S16 96 16 56c0-24 24-32 48-40z" fill="url(#vaultdrop-shield)" stroke="#1e293b" stroke-width="4"/>
+  <!-- Vault Door Circle -->
+  <circle cx="64" cy="64" r="22" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+  <!-- Downward Arrow (Drop) -->
+  <path d="M64 54v24M56 70l8 8 8-8" stroke="url(#vaultdrop-arrow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
