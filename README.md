@@ -33,12 +33,13 @@ A modern, secure, and user-friendly file sharing platform. Instantly share files
    cd ../server && npm install
    ```
 3. **Set up environment variables:**
-   - Copy `.env.example` to `.env` in the `server` folder and fill in your values.
+   - Copy `server/.env.example` to `server/.env` and fill in your values.
 4. **Start the servers:**
    - In one terminal:
      ```sh
      cd server
      npm start
+     # or: node server.js
      ```
    - In another terminal:
      ```sh
